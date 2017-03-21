@@ -56,7 +56,7 @@ var newSessionHandlers = {
         // skill was launched
         
         // say hello
-        this.emit(':tell', "Say Hello");
+        this.emit(':tell', "Hello NAME");
     }
 };
 
